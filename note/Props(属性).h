@@ -19,7 +19,7 @@ class Bananas extends Component {
 }
 
 AppRegistry.registerComponent('Bananas', () => Bananas);
-译注：在iOS上使用http链接的图片地址可能不会显示，参见这篇说明修改。
+译注：在iOS上使用http链接的图片地址可能不会显示，（因为要求https请求)。
 
 请注意{pic}外围有一层括号，我们需要用括号来把pic这个变量嵌入到JSX语句中。括号的意思是括号内部为一个js变量或表达式，需要执行后取值。因此我们可以把任意合法的JavaScript表达式通过括号嵌入到JSX语句中。
 
