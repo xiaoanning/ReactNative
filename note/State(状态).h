@@ -20,7 +20,7 @@ class Blink extends Component {
             this.setState({ showText: !this.state.showText });
         }, 1000);
     }
-    
+
     render() {
         // 根据当前showText的值决定是否显示text内容
         let display = this.state.showText ? this.props.text : ' ';
